@@ -27,3 +27,28 @@ def range_arg(a, b, c, d):
 print(range_arg('1', '2', '3', '4'))
 
 print(range_arg('1', '2', d='3', c='4'))
+
+#Задача
+
+def task_func(a=(1, 2, 3, 4)):
+    return a[1]
+print(task_func())
+
+#Задача
+
+def compute_surface(radius, pi=3.14159):
+    return pi * radius * radius
+print(compute_surface(2))
+
+#Задача
+
+def append_list(my_list: list):
+    my_list.append('test')
+    return my_list
+print(append_list(a=[1, 2]))
+
+#Задача
+
+def sum_list(my_list: list):
+    return sum(my_list)
+print(sum_list([1, 2, 3, 4]))
