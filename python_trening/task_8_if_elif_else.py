@@ -1,6 +1,6 @@
 num_float = 3.4
 
-num_float = 0 или num_float = -4.5
+# num_float = 0 или num_float = -4.5
 
 if num_float > 0:
     print('Положительное число')
