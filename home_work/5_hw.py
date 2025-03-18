@@ -11,3 +11,4 @@ if username is None or password is None or submit is None:
     print('Элементы не найдены')
 else:
     print('Элементы найдены')
+
